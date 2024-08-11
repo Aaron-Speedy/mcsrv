@@ -242,7 +242,7 @@ int main() {
   );
 
   Arena scratch = arena_init(256 * 1024 * 1024);
-  Arena to_send = arena_init(256 * 1024 * 1024); // this also needs to handle packet lengths
+  Arena to_send = arena_init(256 * 1024 * 1024);
 
   while (true) {
     char buf[1];
